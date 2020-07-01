@@ -23,7 +23,7 @@ module.exports = {
             chunks: ["index"]
         }),
         new HTMLWP({
-            template: "./public/git card.html",
+            template: "./public/card.html",
             filename: "card.html",
             chunks: ["card"]
 
