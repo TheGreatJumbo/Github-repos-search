@@ -1,0 +1,48 @@
+#root {
+    margin: 2rem auto 0 auto;
+    max-width: 1000px;
+}
+
+H1 {
+    text-align: center;
+}
+
+.repo-search #search {
+    width: 100%;
+    flex-grow: 1;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    line-height: 35px;
+    user-select: none;
+}
+
+span {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    margin: 3px;
+}
+
+.crd {
+    width: 300px;
+}
+
+#indicator {
+
+}
+
+.selected {
+    pointer-events: none;
+    cursor: default;
+    color: white !important;
+    background-color: #007bff !important;
+}

@@ -1,0 +1,36 @@
+#c-root {
+    margin: 2rem auto 0 auto;
+    max-width: 1000px;
+}
+
+H1 {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.1rem;
+    line-height: 35px;
+    user-select: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contrib {
+    justify-content: normal;
+    flex-direction: column;
+    text-align: center;
+}
